@@ -19,7 +19,7 @@ module.exports = {
             },
             {
                 "property": "getBoundingClientRect",
-                "message": "Please use vis.size() to get the chart embed dimensions."
+                "message": "You can use element.clientLeft, element.clientRight, element.clientHeight, and element.clientWidth to get an element's dimensions."
             },
             {
                 "object": "document",
@@ -37,6 +37,12 @@ module.exports = {
             "window",
             "document",
             "documentElement"
+        ],
+        "no-implicit-globals": [
+            "error", 
+            {
+                "lexicalBindings": true
+            }
         ]
     },
     extends: [
