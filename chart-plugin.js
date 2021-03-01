@@ -18,6 +18,10 @@ module.exports = {
                 "message": "Please use vis.size() to get the chart embed dimensions."
             },
             {
+                "property": "getBoundingClientRect",
+                "message": "Please use vis.size() to get the chart embed dimensions."
+            },
+            {
                 "object": "document",
                 "property": "querySelector",
                 "message": "Please use [yourRootElement].querySelector instead."
